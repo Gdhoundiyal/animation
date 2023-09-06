@@ -1,6 +1,6 @@
 function Page7() {
   return (
-    <div className=" p-5 page7 d-flex justify-content-center">
+    <div className="  page7 d-flex justify-content-center">
       <div className="">
         <div className="joining"></div>
       </div>

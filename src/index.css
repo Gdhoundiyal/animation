@@ -307,6 +307,7 @@ code {
 .page7 {
   background-color: #11112a;
   color: white;
+  padding: 8%;
 }
 
 .page7 h1 {
@@ -433,10 +434,10 @@ code {
   background-color: #d5d9e5;
 }
 .prev {
-  left: 50px;
+  left: 49px;
 }
 .next {
-  right: 50px;
+  right: 49px;
 }
 .dots {
   position: absolute;
