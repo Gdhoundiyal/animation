@@ -1,13 +1,1035 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.page1 {
+  background-image: url(../public/images/alessio-soggetti-gdE-5Oui1Y0-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.navbar-brand {
+  padding: 1% 4%;
+  font-size: 30px;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
+  padding: 1%;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.navbar-nav {
+  font-size: 20px;
+}
+.nav-link {
+  color: rgb(68, 110, 164);
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.contevolve {
+  padding: 3%;
+}
+.page1 li:hover {
+  color: whitesmoke !important;
+  border-radius: 6px;
+}
+.evolve {
+  font-size: 7.357em;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: -2rem;
+  background: -webkit-linear-gradient(
+    bottom left,
+    rgb(197, 241, 252),
+    rgb(68, 110, 164)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.innovation {
+  font-size: 7.357em;
+  text-align: center;
+  font-weight: 700;
+}
+.evolve2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 2% 15%;
+}
+
+.page2 {
+  background-color: #11112a;
+  color: white;
+}
+
+.page2div {
+  margin-top: 0px !important;
+  padding: 6% 0%;
+}
+
+.about {
+  font-size: 35px;
+}
+.young {
+  font-size: 70px;
+  padding: 2% 0%;
+  font-family: revert;
+}
+.because {
+  font-size: 20px;
+  padding: 2% 0%;
+}
+.d-flex {
+  align-items: center;
+}
+.samsung {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.google {
+  font-size: 30px;
+  font-weight: 100;
+}
+.amazon {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.window {
+  font-size: 25px;
+}
+.sony {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: auto;
+}
+
+.page3 {
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #d5d9e5;
+}
+
+.textpage3 {
+  top: 40%;
+  left: 40%;
+  position: relative;
+  width: 60%;
+  height: auto;
+}
+
+.page3heading {
+  font-size: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.page3text {
+  font-size: 21px;
+}
+
+.page4 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  background-color: #11112a;
+  color: white;
+}
+
+.box1 {
+  height: 33%;
+  width: 33%;
+}
+.box22 {
+  margin-left: -6%;
+}
+
+.roundbox4 {
+  height: 15rem;
+  width: 22rem;
+  background-image: linear-gradient(#575768, #29293f);
+  color: white;
+  border-radius: 20px;
+  padding: 8% 10%;
+  font-size: 42px;
+  margin: 7% 0% 10% 8%;
+  font-weight: 500;
+}
+
+.roundbox4 span {
+  visibility: hidden;
+}
+.roundbox4:hover span {
+  visibility: visible;
+}
+.roundbox4:hover {
+  background: #1999a9;
+}
+
+.expertise {
+  font-size: 70px;
+}
+.provide {
+  font-size: 20px;
+}
+.btnLmore {
+  border: 1px solid white;
+  font-size: 19px;
+  padding: 2% 6%;
+  border-radius: 30px;
+  background-color: #11112a;
+  color: white;
+}
+.btnLmore:hover {
+  background-color: #1999a9;
+}
+
+.page5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #11112a;
+  color: white;
+  padding: 5%;
+  width: 100%;
+}
+.page5box {
+  height: 28rem;
+  width: 55rem;
+  background-color: white;
+  color: black;
+  padding: 4%;
+  border-radius: 20px;
+}
+
+.page5box h1 {
+  font-size: 60px;
+}
+
+.page5box button {
+  border: 1px solid white;
+  font-size: 19px;
+  padding: 2% 6%;
+  border-radius: 30px;
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+  font-weight: 500;
+}
+.page5box button:hover {
+  background-color: #1999a9;
+  color: white;
+}
+
+.page5box span {
+  font-size: 22px;
+}
+
+.page5content {
+  height: 28rem;
+  width: 20rem;
+}
+
+.p5b1 {
+  margin: 8%;
+}
+.page5content h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.page5content span {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.namephoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page6 {
+  background-color: #d5d9e5 !important  ;
+}
+
+.page6div {
+  background-color: #eaecf0 !important;
+  border-radius: 15px;
+}
+
+.bbimg {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+
+.page6txt {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 8%;
+}
+.john {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.joining {
+  background-image: url(../public/images/mimi-thian-vdXMSiX-n6M-unsplash.jpg);
+  background-size: 40rem 30rem;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 40rem;
+  border-radius: 15px;
+}
+.ceo {
+  font-size: 20px;
+}
+
+.page7 {
+  background-color: #11112a;
+  color: white;
+}
+
+.page7 h1 {
+  font-size: clamp(20px, 10vw, 60px);
+}
+.page7 button {
+  font-size: clamp(8px, 10vw, 20px);
+  padding: 2% 6%;
+  border-radius: 7px;
+}
+.page7 button:hover {
+  background-color: #1999a9;
+  color: white;
+}
+
+.page8 {
+  background-color: #d5d9e5;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formbox {
+  width: 60%;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 5% 4px 5% 3%;
+  padding: 4% !important;
+}
+.emailbox {
+  margin-left: 20%;
+}
+.page8 h1 {
+  font-size: clamp(10px, 10vw, 90px);
+}
+.touch {
+  font-size: clamp(10px, 10vw, 50px);
+}
+.sendmsg {
+  font-size: clamp(10px, 10vw, 50px);
+}
+
+.page8 p {
+  font-size: clamp(10px, 10vw, 23px);
+  margin: 4% 0;
+}
+
+.page8 span {
+  font-size: clamp(10px, 10vw, 22px);
+}
+
+.page8 label {
+  font-size: clamp(10px, 10vw, 24px);
+}
+
+.msgdiv,
+.submitdiv,
+.checkdiv {
+  margin-top: 6%;
+}
+
+.msgbox {
+  padding: 0% 0% 20% 4% !important;
+  border-radius: 15px !important;
+  height: 13rem !important;
+  font-size: 23px !important;
+}
+
+.checkbox {
+  transform: scale(2) !important;
+  width: 2% !important;
+  font-size: 2px !important;
+  margin: 0px 18px 15px 0 !important;
+}
+.page8 button {
+  margin: 8% 0% 0% 0%;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 1% 6%;
+  border: 1px solid white;
+}
+.page8 button:hover {
+  background-color: #1999a9;
+  color: white;
+}
+
+.page8 input {
+  width: 100%;
+  font-size: clamp(10px, 10vw, 22px);
+  border-radius: 12px;
+  padding: 1% 0% 5% 4%;
+  border: 1px solid white;
+}
+
+.slider-container {
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+}
+.slide {
+  width: 100%;
+  height: 524px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.active {
+  opacity: 1;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  border: none;
+  background-color: #d5d9e5;
+}
+.prev:hover,
+.next:hover {
+  background-color: #d5d9e5;
+}
+.prev {
+  left: 50px;
+}
+.next {
+  right: 50px;
+}
+.dots {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.active-dot {
+  background-color: rgba(71, 66, 66, 0.5);
+}
+
+.footer {
+  padding: 2% 5%;
+  background: #040419;
+  color: white;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #040419;
+  color: white;
+}
+
+.footdiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footdiv2 p {
+  margin-bottom: 0;
+}
+
+.footdiv2-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigbar h5 {
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 20px;
+}
+@media (max-width: 1295px) {
+  .roundbox4 {
+    height: 12rem;
+    width: 19rem;
+    padding: 12%;
+    font-size: 36px;
+    margin: 7% 0% 10% 8%;
+  }
+
+  .E-commerce {
+    padding: 6% 8%;
+    font-size: 36px;
+  }
+  .expertise {
+    font-size: 60px;
+  }
+  .provide {
+    font-size: 15px;
+  }
+  .btnLmore {
+    font-size: 13px;
+    padding: 2% 6%;
+  }
+  .joining {
+    background-size: auto 25rem;
+    height: 27rem;
+    width: 31rem;
+  }
+  .page6txt {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1127px) {
+  .roundbox4 {
+    height: 9rem;
+    width: 16rem;
+    padding: 17%;
+    font-size: 26px;
+  }
+
+  .ecommerce {
+    padding: 12%;
+  }
+  .expertise {
+    font-size: 50px;
+  }
+  .provide {
+    font-size: 12px;
+  }
+  .btnLmore {
+    font-size: 10px;
+  }
+  .page5box {
+    height: 23rem;
+    width: 42rem;
+  }
+  .page5box h1 {
+    font-size: 45px;
+  }
+
+  .page5box button {
+    font-size: 16px;
+    top: 3rem;
+  }
+  .page5content {
+    height: 23rem;
+    margin-top: 3rem;
+    margin-left: 5%;
+  }
+  .p5b1 {
+    margin: 2%;
+  }
+
+  .page5content h2 {
+    font-size: 50px;
+  }
+  .page5content span {
+    font-size: 20px;
+  }
+  .sendmsg {
+    font-size: clamp(10px, 10vw, 45px);
+  }
+  .page8 p {
+    font-size: clamp(10px, 10vw, 18px);
+  }
+  .page8 label {
+    font-size: clamp(10px, 10vw, 18px);
+  }
+  .page8 input {
+    font-size: clamp(10px, 10vw, 17px);
+    padding: 3% 1% 5% 3%;
+  }
+  .msgbox {
+    padding: 0% 0% 16% 2% !important;
+    border-radius: 15px !important;
+    height: 9rem !important;
+    font-size: 18px !important;
+  }
+  .checkbox {
+    transform: scale(1.4) !important;
+    width: 2% !important;
+    margin: 0px 15px 17px 0px !important;
+  }
+  .page8 span {
+    font-size: clamp(10px, 10vw, 16px);
+  }
+  .page8 button {
+    font-size: 16px;
+  }
+  .page8 h1 {
+    font-size: clamp(10px, 10vw, 82px);
+  }
+  .touch {
+    font-size: clamp(10px, 10vw, 38px);
+  }
+  .formbox {
+    padding: 4% !important;
+  }
+  .footdiv1 h1 {
+    font-size: 20px;
+  }
+
+  .footdiv2 {
+    font-size: 13px;
+  }
+  .footdiv2-1 span {
+    font-size: 13px;
+  }
+  .navigbar h5 {
+    font-size: 17px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 955px) {
+  .roundbox4 {
+    height: 7rem;
+    width: 13rem;
+    padding: 8%;
+    font-size: 23px;
+  }
+
+  .E-commerce {
+    font-size: 23px;
+    padding: 4% 5%;
+  }
+  .expertise {
+    font-size: 40px;
+  }
+  .provide {
+    font-size: 9px;
+  }
+  .btnLmore {
+    font-size: 9px;
+  }
+  .joining {
+    background-size: auto 17rem;
+    height: 17rem;
+    width: 23rem;
+  }
+  .page7 h1 {
+    font-size: 42px;
+  }
+  .page7 p {
+    font-size: 15px;
+  }
+
+  .page7 button {
+    font-size: clamp(8px, 10vw, 15px);
+  }
+
+  .page6txt {
+    margin-top: 8%;
+    font-size: 23px;
+  }
+
+  .page6nameicon {
+    margin-top: 9%;
+  }
+  .bbimg {
+    height: 70px;
+    width: 70px;
+  }
+  .john {
+    font-size: 20px;
+  }
+  .ceo {
+    font-size: 14px;
+  }
+
+  .p-5 {
+    padding: 3rem 1rem !important;
+  }
+  .page8 h1 {
+    font-size: clamp(10px, 10vw, 72px);
+  }
+  .touch {
+    font-size: clamp(10px, 10vw, 32px);
+  }
+  .sendmsg {
+    font-size: clamp(10px, 10vw, 34px);
+  }
+  .page8 p {
+    font-size: clamp(10px, 10vw, 14px);
+  }
+  .page8 label {
+    font-size: clamp(10px, 10vw, 15px);
+  }
+  .page8 input {
+    font-size: clamp(10px, 10vw, 12px);
+    padding: 4% 0% 6% 2%;
+  }
+  .msgbox {
+    padding: 0% 0% 15% 1% !important;
+    border-radius: 15px !important;
+    height: 6rem !important;
+    font-size: 13px !important;
+  }
+  .page8 button {
+    font-size: 13px;
+  }
+  .page8 span {
+    font-size: clamp(10px, 10vw, 11px);
+  }
+  .formbox {
+    padding: 4% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contevolve {
+    margin-top: 13%;
+  }
+  .evolve {
+    font-size: 4.3rem;
+  }
+  .innovation {
+    font-size: 4.3rem;
+  }
+
+  .evolve2 {
+    font-size: 1rem;
+  }
+  .young {
+    font-size: 60px;
+  }
+  .because {
+    font-size: 17px;
+  }
+
+  .samsung {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  .google {
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .amazon {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .window {
+    font-size: 17px;
+  }
+  .sony {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: auto;
+  }
+
+  .textpage3 {
+    top: 39%;
+    left: 30%;
+  }
+  .page3heading {
+    font-size: 60px;
+  }
+  .page3text {
+    font-size: 18px;
+  }
+  .roundbox4 {
+    height: 5rem;
+    width: 9rem;
+    padding: 5%;
+    font-size: 20px;
+  }
+
+  .E-commerce {
+    font-size: 20px;
+    padding: 3% 4%;
+  }
+  .expertise {
+    font-size: 33px;
+  }
+  .provide {
+    font-size: 7px;
+  }
+  .btnLmore {
+    font-size: 7px;
+  }
+  .prev,
+  .next {
+    font-size: 21px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .joining {
+    background-size: auto 15rem;
+    height: 15rem;
+    width: 19rem;
+  }
+  .page7 h1 {
+    font-size: 32px;
+  }
+  .page7 p {
+    font-size: 12px;
+  }
+  .page7 button {
+    font-size: clamp(8px, 10vw, 12px);
+  }
+  .footdiv1 h1 {
+    font-size: 17px;
+  }
+  .navigbar h5 {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  .footdiv2 {
+    font-size: 10px;
+  }
+  .footdiv2 span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 690px) {
+  .page5box {
+    height: 22rem;
+    width: 38rem;
+  }
+  .page5box h1 {
+    font-size: 38px;
+  }
+  .page5content h2 {
+    font-size: 47px;
+  }
+  .page5content span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .young {
+    font-size: 50px;
+  }
+  .because {
+    font-size: 14px;
+  }
+  .samsung {
+    font-size: 17px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  .google {
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .amazon {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .window {
+    font-size: 14px;
+  }
+  .sony {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .roundbox4 {
+    height: 5rem;
+    width: 7rem;
+    padding: 4%;
+    font-size: 16px;
+  }
+
+  .E-commerce {
+    font-size: 16px;
+    padding: 1% 2%;
+  }
+  .expertise {
+    font-size: 28px;
+  }
+  .provide {
+    font-size: 6px;
+  }
+  .btnLmore {
+    font-size: 6px;
+  }
+  .page5box {
+    height: 17rem;
+    width: 51rem;
+  }
+  .page5box h1 {
+    font-size: 29px;
+  }
+
+  .page5box button {
+    font-size: 12px;
+    top: 2rem;
+  }
+  .page5content {
+    height: 17rem;
+    margin-top: 0rem;
+  }
+  .p5b1 {
+    margin: 2%;
+  }
+
+  .page5content h2 {
+    font-size: 25px;
+  }
+  .page5content span {
+    font-size: 1w5px;
+  }
+  .page5box span {
+    font-size: 14px;
+  }
+  .page6txt {
+    font-size: 20px;
+    margin-top: 8%;
+  }
+  .bbimg {
+    height: 50px;
+    width: 50px;
+  }
+  .john {
+    font-size: 16px;
+  }
+  .ceo {
+    font-size: 11px;
+  }
+  .page6nameicon {
+    margin-top: 3%;
+  }
+  .joining {
+    background-size: auto 11rem;
+    height: 11rem;
+    width: 14rem;
+  }
+  .page7 h1 {
+    font-size: 23px;
+  }
+  .page7 p {
+    font-size: 9px;
+  }
+  .page7 button {
+    font-size: clamp(8px, 10vw, 9px);
+    padding: 1% 4%;
+  }
+  .slider-container {
+    width: 100%;
+    height: 38rem;
+  }
+  .slide {
+    height: 30rem;
+  }
+  .page8 {
+    display: block !important;
+    align-items: center;
+  }
+
+  .page8 p {
+    font-size: clamp(10px, 10vw, 18px);
+  }
+  .page8 label {
+    font-size: clamp(10px, 10vw, 18px);
+  }
+  .page8 input {
+    font-size: clamp(10px, 10vw, 16px);
+    padding: 3% 1% 5% 3%;
+  }
+  .msgbox {
+    padding: 0% 0% 16% 2% !important;
+    border-radius: 15px !important;
+    height: 9rem !important;
+    font-size: 18px !important;
+  }
+  .checkbox {
+    transform: scale(2.4) !important;
+    width: 2% !important;
+    margin: 0px 15px 40px 0px !important;
+  }
+  .page8 span {
+    font-size: clamp(10px, 10vw, 16px);
+  }
+  .page8 button {
+    font-size: 16px;
+  }
+  .page8 h1 {
+    font-size: clamp(10px, 10vw, 82px);
+  }
+  .touch {
+    font-size: clamp(10px, 10vw, 38px);
+  }
+  .formbox {
+    padding: 4% !important;
+    width: 95%;
+  }
+  .contacttouch {
+    padding-left: 18%;
+  }
+  .footdiv1 h1 {
+    font-size: 15px;
+  }
+  .navigbar h5 {
+    font-size: 11px;
+    margin-left: 6px;
+  }
+  .footdiv2 {
+    font-size: 7px;
+  }
+  .footdiv2 span {
+    font-size: 7px;
+  }
 }
