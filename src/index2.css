@@ -1,0 +1,1149 @@
+.navfor2 {
+  background-color: #efebe0;
+}
+
+.section1 {
+  height: auto;
+  padding: 10%;
+  background-image: url(../public/images/photo-1474540412665-1cdae210ae6b.avif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.box1-2 {
+  border-radius: 2.6rem;
+  height: 25rem;
+  width: 52rem;
+  background-color: #ede6e6e6;
+  margin: 1%;
+  padding: 4% 6%;
+  border: 1px solid white;
+}
+
+.box1-2:hover {
+  background-color: #11112a;
+  color: white;
+}
+.box1-2:hover .arrow1 {
+  background-color: white;
+  color: black;
+}
+
+.box3-4-5 {
+  height: 25rem;
+  width: 33rem;
+  background-color: #f4f4f45c;
+  border-radius: 2.6rem;
+  margin: 1%;
+  padding: 4% 4%;
+  border: 1px solid white;
+  opacity: 0.9;
+}
+
+.box3-4-5:hover {
+  background-color: #11112a;
+  color: white;
+}
+.box3-4-5:hover .arrow2 {
+  background-color: white;
+  color: black;
+}
+
+.box1-2 h3 {
+  font-size: clamp(10px, 10vw, 2.6rem);
+  margin-top: 18%;
+}
+
+.box3-4-5 h3 {
+  font-size: clamp(10px, 10vw, 2.5rem);
+  margin-top: 25%;
+}
+.box1-2div {
+  display: flex;
+  justify-content: center;
+}
+
+.box3-4-5div {
+  display: flex;
+  justify-content: center;
+}
+
+.iconbox1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 0% 10% 0;
+}
+.iconbox2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% 0% 20% 0;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+.icon3-4 {
+  font-size: 3rem;
+}
+
+.arrow1 {
+  font-size: 5rem;
+  padding: 3%;
+  border-radius: 5rem;
+}
+.arrow2 {
+  font-size: 4rem;
+  padding: 3%;
+  border-radius: 5rem;
+}
+
+.section6 {
+  padding: 1% 6%;
+  text-align: center;
+  background-color: #e1e4ec70;
+  position: relative;
+  padding-bottom: 10%;
+}
+
+.hovershowdiv {
+  position: relative;
+  margin-top: 11%;
+  text-align: center;
+  color: white;
+}
+.section6 h1 {
+  padding: 2% 1%;
+  font-size: 50px;
+}
+
+.carddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  padding: 3%;
+  color: white;
+  margin-bottom: 2%;
+}
+.card1 {
+  padding: 2%;
+  height: 35rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-image: url(../public/images/sorasak-KxCJXXGsv9I-unsplash.jpg);
+  background-size: 100% 100%;
+}
+.card2 {
+  padding: 2%;
+  height: 35rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-image: url(../public/images/roya-ann-miller-fan8N_Ve4FQ-unsplash.jpg);
+  background-size: 100% 100%;
+}
+.card3 {
+  padding: 2%;
+  height: 35rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-image: url(../public/images/windows-hNiNxhUfCfQ-unsplash.jpg);
+  background-size: 100% 100%;
+}
+
+.year {
+  position: absolute;
+  top: 95%;
+  font-size: 29px;
+  color: white;
+}
+
+.bottomname {
+  position: absolute;
+  top: 105%;
+  font-size: 37px;
+  text-align: left;
+  color: white;
+}
+
+.iconafterhover {
+  font-size: 80px;
+}
+
+.cyber {
+  font-size: 30px;
+}
+.uwang {
+  font-size: 45px;
+}
+.uwangtxt {
+  font-size: 22px;
+}
+.readbtn {
+  padding: 2%;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 4%;
+  background-color: white;
+  color: #11112a;
+}
+.hoverdiv {
+  visibility: hidden;
+  margin-top: 3%;
+}
+.card1:hover .hoverdiv {
+  visibility: visible;
+}
+.card1:hover .bottomname {
+  visibility: hidden;
+}
+.card1:hover .year {
+  visibility: hidden;
+}
+.card1:hover {
+  background-color: #11112a;
+  background-image: none;
+}
+
+.card2:hover .hoverdiv {
+  visibility: visible;
+}
+.card2:hover .bottomname {
+  visibility: hidden;
+}
+.card2:hover .year {
+  visibility: hidden;
+}
+.card2:hover {
+  background-color: #11112a;
+  background-image: none;
+}
+
+.card3:hover .hoverdiv {
+  visibility: visible;
+}
+.card3:hover .bottomname {
+  visibility: hidden;
+}
+.card3:hover .year {
+  visibility: hidden;
+}
+.card3:hover {
+  background-color: #11112a;
+  background-image: none;
+}
+
+.section3 {
+  height: 750px;
+  position: relative;
+  background-color: #11112a;
+  color: white;
+  padding: 6% 5% 0% 5%;
+  text-align: center;
+}
+.section3update {
+  height: 550px;
+  position: relative;
+  background-color: #11112a;
+  color: white;
+}
+
+.sec3head {
+  font-size: 6.5rem;
+}
+
+.rightbox {
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  background-color: #d9d9d9;
+  left: 80%;
+  bottom: 66%;
+}
+.rightboxupdate {
+  position: absolute;
+  height: 11rem;
+  width: 11rem;
+  background-color: #e9b036;
+  left: 79%;
+  bottom: 62%;
+  border-radius: 50%;
+}
+.rightboxupdated {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: #d9d9d9;
+  left: 79%;
+  bottom: 62%;
+}
+.rightboxupdatesec5 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #d9d9d9;
+  left: 79%;
+  bottom: 0%;
+}
+.leftbox {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: #d9d9d9;
+  left: 14%;
+  bottom: 25%;
+}
+.leftboxupdate {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #d9d9d9;
+  left: 14%;
+  bottom: 0%;
+}
+.leftboxupdatesec5 {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background-color: #d9d9d9;
+  left: 9%;
+  bottom: 100%;
+  border-radius: 2rem;
+}
+.circle1 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  border-radius: 50%;
+  left: 50%;
+  top: 39%;
+}
+.circle1update {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  border-radius: 50%;
+  left: 50%;
+  top: 11%;
+}
+.line {
+  position: absolute;
+  height: 180px;
+  width: 4px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  top: 41%;
+  left: 50.7%;
+}
+.lineupdate {
+  position: absolute;
+  height: 185px;
+  width: 4px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  top: 15%;
+  left: 50.7%;
+}
+.circle2 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  border-radius: 50%;
+  left: 50%;
+  top: 62%;
+}
+.circle2update {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #92deed;
+  box-shadow: 0px 0px 7px 1px #92deed;
+  border-radius: 50%;
+  left: 50%;
+  top: 48%;
+}
+
+.sec3icon {
+  padding: 2% 2.5%;
+  border-radius: 10%;
+  font-size: 53px;
+  background-color: #37374c;
+  background-image: linear-gradient(#575768, #29293f);
+  position: absolute;
+  top: 77%;
+  left: 46%;
+}
+.sec3iconupdate {
+  padding: 2% 2.5%;
+  border-radius: 10%;
+  font-size: 53px;
+  background-color: #37374c;
+  background-image: linear-gradient(#575768, #29293f);
+  position: absolute;
+  top: 68%;
+  left: 46%;
+}
+.secdivmain {
+  background-color: #11112a;
+  position: relative;
+  color: #f0f0f8;
+}
+
+.text01 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+.discovery {
+  text-align: center;
+  font-size: 40px;
+  margin: 1% 0 2% 0;
+  font-weight: 500;
+  color: #92deed;
+}
+
+.sectextdiv {
+  display: flex;
+  justify-content: center;
+}
+.sectext {
+  text-align: center;
+  margin: 0 0 2% 0;
+  width: 37%;
+  font-size: 20px;
+}
+
+.box h3 {
+  text-align: center;
+}
+.slack-list {
+  color: white !important;
+}
+.slick-slide div {
+  padding: 0.5rem !important;
+}
+.slick-prev {
+  color: black !important;
+}
+.slick-next {
+  color: black !important;
+}
+.slick-prev:before {
+  color: black !important;
+}
+.slick-next:before {
+  color: black !important;
+}
+.slick-dots li button:before {
+  font-size: 13px !important;
+  top: 6rem !important;
+}
+/* .slick-dots li button {
+  font-size: 13px !important;
+  top: 6rem !important;
+} */
+.slick-track {
+  height: 615px;
+}
+
+@media (max-width: 1330px) {
+  .card1 {
+    height: 32rem;
+  }
+  .card2 {
+    height: 32rem;
+  }
+  .card3 {
+    height: 32rem;
+  }
+  .cyber {
+    font-size: 25px;
+  }
+  .iconafterhover {
+    font-size: 70px;
+  }
+  .uwang {
+    font-size: 41px;
+  }
+  .uwangtxt {
+    font-size: 19px;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .line {
+    left: 50.8%;
+  }
+  .lineupdate {
+    left: 50.8%;
+  }
+  .slick-track {
+    height: 570px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box1-2 {
+    height: 20rem;
+    width: 100%;
+    border-radius: 1.7rem;
+  }
+  .box1-2 h3 {
+    font-size: clamp(10px, 10vw, 2rem);
+    margin-top: 20%;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+  .arrow1 {
+    font-size: 4rem;
+  }
+
+  .box3-4-5 {
+    height: 20rem;
+    width: 100%;
+    border-radius: 1.7rem;
+  }
+  .box3-4-5 h3 {
+    font-size: clamp(10px, 10vw, 2rem);
+    margin-top: 35%;
+  }
+  .icon3-4 {
+    font-size: 2rem;
+  }
+  .arrow2 {
+    font-size: 3rem;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .card1 {
+    height: 30rem;
+  }
+  .card2 {
+    height: 30rem;
+  }
+  .card3 {
+    height: 30rem;
+  }
+  .cyber {
+    font-size: 21px;
+  }
+  .iconafterhover {
+    font-size: 70px;
+  }
+  .uwang {
+    font-size: 31px;
+  }
+  .uwangtxt {
+    font-size: 14px;
+  }
+  .bottomname {
+    font-size: 28px;
+    top: 112%;
+  }
+  .year {
+    font-size: 28px;
+    top: 100%;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .section3 {
+    height: 650px;
+  }
+  .sec3head {
+    font-size: 5.5rem;
+  }
+  .rightbox {
+    height: 30px;
+    width: 30px;
+  }
+  .leftbox {
+    height: 80px;
+    width: 80px;
+  }
+  .circle1 {
+    height: 20px;
+    width: 20px;
+  }
+  .circle2 {
+    height: 20px;
+    width: 20px;
+  }
+  .line {
+    height: 151px;
+    width: 3px;
+  }
+  .sec3icon {
+    padding: 1.5% 2%;
+    font-size: 50px;
+  }
+  .text01 {
+    font-size: 28px;
+  }
+  .discovery {
+    font-size: 36px;
+  }
+  .sectext {
+    width: 33%;
+    font-size: 14px;
+  }
+  .section3update {
+    height: 430px;
+  }
+  .rightboxupdate {
+    height: 10rem;
+    width: 10rem;
+  }
+  .rightboxupdated {
+    height: 80px;
+    width: 80px;
+  }
+  .leftboxupdate {
+    height: 40px;
+    width: 40px;
+  }
+  .leftboxupdatesec5 {
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+  }
+  .circle1update {
+    height: 20px;
+    width: 20px;
+  }
+  .circle2update {
+    height: 20px;
+    width: 20px;
+  }
+  .lineupdate {
+    height: 151px;
+    width: 3px;
+  }
+  .sec3iconupdate {
+    padding: 1.5% 2%;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card1 {
+    height: 33rem;
+  }
+  .card2 {
+    height: 33rem;
+  }
+  .card3 {
+    height: 33rem;
+  }
+  .bottomname {
+    font-size: 39px;
+    top: 94%;
+  }
+  .year {
+    font-size: 35px;
+    top: 82%;
+  }
+  .iconafterhover {
+    font-size: 80px;
+  }
+
+  .cyber {
+    font-size: 30px;
+  }
+  .uwang {
+    font-size: 45px;
+  }
+  .uwangtxt {
+    font-size: 22px;
+  }
+  .readbtn {
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 4%;
+    background-color: white;
+    color: #11112a;
+  }
+  .hoverdiv {
+    visibility: hidden;
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 950px) {
+  .box1-2 {
+    height: 15rem;
+    width: 100%;
+  }
+  .box1-2 h3 {
+    font-size: clamp(10px, 10vw, 1.5rem);
+    margin-top: 20%;
+  }
+  .icon {
+    font-size: 2rem;
+  }
+  .arrow1 {
+    font-size: 3rem;
+  }
+
+  .box3-4-5 {
+    height: 14rem;
+    width: 100%;
+  }
+  .box3-4-5 h3 {
+    font-size: clamp(10px, 10vw, 1.2rem);
+    margin-top: 35%;
+  }
+  .icon3-4 {
+    font-size: 1.6rem;
+  }
+  .arrow2 {
+    font-size: 2.1rem;
+  }
+  .section6 h1 {
+    font-size: 44px;
+  }
+
+  .bottomname {
+    font-size: 39px;
+    top: 95%;
+  }
+  .year {
+    font-size: 37px;
+    top: 83%;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .line {
+    left: 51%;
+  }
+  .lineupdate {
+    left: 51%;
+  }
+}
+
+@media (max-width: 810px) {
+  .carddiv {
+    display: block;
+    gap: 2%;
+  }
+  .card1 {
+    height: 32rem;
+    margin: 4% 0%;
+  }
+  .card2 {
+    height: 32rem;
+    margin: 4% 0%;
+  }
+  .card3 {
+    height: 32rem;
+    margin: 4% 0%;
+  }
+  .cyber {
+    font-size: 1.5rem;
+  }
+  .iconafterhover {
+    font-size: 5rem;
+  }
+  .uwang {
+    font-size: 2rem;
+  }
+  .uwangtxt {
+    font-size: 1rem;
+  }
+  .readbtn {
+    padding: 3%;
+    border-radius: 19px;
+    font-size: 23px;
+  }
+  .year {
+    font-size: 30px;
+    top: 94%;
+  }
+  .bottomname {
+    font-size: 35px;
+    top: 107%;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .section3 {
+    height: 550px;
+  }
+  .sec3head {
+    font-size: 4rem;
+  }
+  .rightbox {
+    height: 25px;
+    width: 25px;
+  }
+  .leftbox {
+    height: 55px;
+    width: 55px;
+  }
+  .circle1,
+  .circle2 {
+    height: 15px;
+    width: 15px;
+  }
+
+  .line {
+    height: 117px;
+    left: 50.8%;
+  }
+  .sec3icon {
+    padding: 1% 1.5%;
+    font-size: 45px;
+  }
+  .text01 {
+    font-size: 23px;
+  }
+  .discovery {
+    font-size: 30px;
+  }
+  .sectext {
+    width: 33%;
+    font-size: 10px;
+  }
+
+  .section3update {
+    height: 330px;
+  }
+
+  .rightboxupdate {
+    height: 7rem;
+    width: 7rem;
+  }
+  .leftboxupdate {
+    height: 30px;
+    width: 30px;
+  }
+  .leftboxupdatesec5 {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+  }
+  .rightboxupdated {
+    height: 55px;
+    width: 55px;
+  }
+  .rightboxupdatesec5 {
+    height: 45px;
+    width: 45px;
+  }
+  .circle1update,
+  .circle2update {
+    height: 15px;
+    width: 15px;
+  }
+
+  .lineupdate {
+    height: 117px;
+    left: 50.8%;
+  }
+  .sec3iconupdate {
+    padding: 1% 1.5%;
+    font-size: 45px;
+  }
+  .slick-dots li button:before {
+    font-size: 9px !important;
+    top: 4rem !important;
+  }
+  /* .slick-dots li button {
+    font-size: 10px !important;
+    top: 8rem !important;
+  } */
+}
+
+@media (max-width: 670px) {
+  .year {
+    font-size: 28px;
+    top: 94%;
+  }
+  .bottomname {
+    font-size: 29px;
+    top: 106%;
+  }
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .section3 {
+    height: 480px;
+  }
+  .line {
+    height: 106px;
+    left: 51%;
+  }
+  .lineupdate {
+    height: 112px;
+    left: 51%;
+  }
+  .sec3head {
+    font-size: 3.5rem;
+    margin: 1% 1% 0% 0%;
+  }
+}
+
+@media (max-width: 610px) {
+  .slick-track {
+    height: 810px !important;
+  }
+  .card1 {
+    height: 46rem;
+  }
+  .card2 {
+    height: 46rem;
+  }
+  .card3 {
+    height: 46rem;
+  }
+  .year {
+    font-size: 51px;
+    top: 87%;
+  }
+  .bottomname {
+    font-size: 50px;
+    top: 99%;
+  }
+
+  .iconafterhover {
+    font-size: 105px;
+  }
+  .cyber {
+    font-size: 45px;
+  }
+  .uwang {
+    font-size: 60px;
+    margin-top: 1%;
+  }
+  .uwangtxt {
+    font-size: 28px;
+    margin-top: 5%;
+  }
+  .readbtn {
+    font-size: 35px;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 570px) {
+  .box1-2 {
+    height: 12rem;
+    width: 100%;
+  }
+  .box1-2 h3 {
+    font-size: clamp(10px, 10vw, 1.2rem);
+    margin-top: 20%;
+  }
+  .icon {
+    font-size: 1.6rem;
+  }
+  .arrow1 {
+    font-size: 2rem;
+  }
+
+  .box3-4-5 {
+    height: 11rem;
+    width: 100%;
+  }
+  .box3-4-5 h3 {
+    font-size: clamp(10px, 10vw, 0.99rem);
+    margin-top: 35%;
+  }
+  .icon3-4 {
+    font-size: 1rem;
+  }
+  .arrow2 {
+    font-size: 1.6rem;
+  }
+
+  .hovershowdiv {
+    margin-top: 11%;
+  }
+  .section6 h1 {
+    padding: 6% 1% 1% 1%;
+    font-size: 36px;
+  }
+  .section3 {
+    height: 450px;
+  }
+
+  .sec3head {
+    font-size: 3rem;
+    margin: 5% 0% 0% 0%;
+  }
+  .line {
+    height: 99px;
+    left: 51%;
+    top: 36%;
+  }
+  .sec3icon {
+    padding: 0% 1.5%;
+    font-size: 40px;
+  }
+  .circle1,
+  .circle2 {
+    height: 13px;
+    width: 13px;
+  }
+  .circle1 {
+    top: 35%;
+  }
+  .circle2 {
+    top: 57%;
+  }
+  .text01 {
+    font-size: 20px;
+  }
+  .discovery {
+    font-size: 25px;
+  }
+  .sectext {
+    width: 33%;
+    font-size: 7px;
+  }
+  .section3update {
+    height: 250px;
+  }
+  .rightboxupdate {
+    height: 5rem;
+    width: 5rem;
+  }
+  .rightboxupdatesec5 {
+    height: 30px;
+    width: 30px;
+  }
+  .leftboxupdatesec5 {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+  }
+
+  .lineupdate {
+    height: 85px;
+    left: 51%;
+    top: 15%;
+  }
+  .sec3iconupdate {
+    padding: 0% 1.5%;
+    font-size: 40px;
+  }
+  .circle1update,
+  .circle2update {
+    height: 13px;
+    width: 13px;
+  }
+  .card1 {
+    height: 38rem;
+  }
+  .card2 {
+    height: 38rem;
+  }
+  .card3 {
+    height: 38rem;
+  }
+  .year {
+    font-size: 49px;
+    top: 80%;
+  }
+  .bottomname {
+    font-size: 48px;
+    top: 91%;
+  }
+  .slick-track {
+    height: 665px !important;
+  }
+  .iconafterhover {
+    font-size: 94px;
+  }
+  .cyber {
+    font-size: 38px;
+  }
+  .uwang {
+    font-size: 49px;
+    margin-top: 2%;
+  }
+  .uwangtxt {
+    font-size: 23.5px;
+    margin-top: 5%;
+  }
+  .readbtn {
+    font-size: 26px;
+    margin-top: 5%;
+  }
+  .slick-dots li button:before {
+    font-size: 9px !important;
+    top: 3.5rem !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .line {
+    height: 91px;
+    left: 51.3%;
+    top: 37%;
+  }
+  .lineupdate {
+    height: 91px;
+    left: 51.3%;
+    top: 15%;
+  }
+  .rightboxupdate {
+    height: 4rem;
+    width: 4rem;
+  }
+  .sec3head {
+    font-size: 2.3rem;
+  }
+  .card1 {
+    height: 29rem;
+  }
+  .card2 {
+    height: 29rem;
+  }
+  .card3 {
+    height: 29rem;
+  }
+  .year {
+    font-size: 33px;
+    top: 87%;
+  }
+  .bottomname {
+    font-size: 32px;
+    top: 100%;
+  }
+  .slick-track {
+    height: 505px !important;
+  }
+  .iconafterhover {
+    font-size: 70px;
+  }
+  .cyber {
+    font-size: 27px;
+  }
+  .uwang {
+    font-size: 36px;
+    margin-top: 2%;
+  }
+  .uwangtxt {
+    font-size: 13.5px;
+    margin-top: 5%;
+  }
+  .readbtn {
+    font-size: 17px;
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,338 @@
+.sec1 {
+  height: 700px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-color: #d5d9e5;
+  padding: 2% 4%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.sec1 button {
+  background-color: #d5d9e5;
+  border: none;
+  font-size: 25px;
+}
+.sec1 h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  padding: 4% 2%;
+}
+.sec1 p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3% 16%;
+}
+
+.sec2box4 {
+  font-size: 37px;
+}
+.sec2box-2 {
+  padding: 14% 10%;
+}
+
+.sec3 {
+  height: 800px;
+  background-color: #e0e3ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec3 h1 {
+  text-align: center;
+  font-size: 5.4rem;
+}
+.sec3carddiv {
+  gap: 3%;
+  padding: 5% 0% 0% 0%;
+}
+.sec3card {
+  width: 19%;
+  height: 385px;
+  background-color: #eaedef;
+  padding: 2%;
+  border-radius: 3%;
+}
+.sec3-numbox {
+  border-radius: 50%;
+  background: #11112a;
+  height: 18%;
+  width: 26%;
+}
+.sec3-numbox h4 {
+  color: white;
+  font-size: 23px;
+  padding: 25% 26%;
+}
+.sec3card h3 {
+  margin: 16% 0 12% 0;
+  font-size: 1.7rem;
+}
+.sec3card p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1295px) {
+  .sec2box4 {
+    font-size: 31px;
+    padding: 8% 12%;
+  }
+  .sec2box-2 {
+    padding: 14% 10%;
+  }
+  .sec3card {
+    height: 330px;
+  }
+  .sec3 {
+    height: 750px;
+  }
+  .sec3 h1 {
+    font-size: 5rem;
+  }
+  .sec3-numbox {
+    height: 14%;
+    width: 23%;
+  }
+  .sec3-numbox h4 {
+    font-size: 17px;
+    padding: 22% 25%;
+  }
+  .sec3card h3 {
+    font-size: 1.4rem;
+  }
+  .sec3card p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1220px) {
+  .sec1 button {
+    font-size: 23px;
+  }
+  .sec1 h1 {
+    font-size: 4rem;
+  }
+  .sec1 p {
+    font-size: 1.2rem;
+  }
+  .sec1 {
+    height: 540px;
+  }
+}
+@media (max-width: 1127px) {
+  .sec2box4 {
+    font-size: 24px;
+    padding: 4% 12%;
+  }
+  .sec2box-2 {
+    padding: 8% 10%;
+  }
+}
+@media (max-width: 1085px) {
+  .sec1 button {
+    font-size: 20px;
+  }
+  .sec1 h1 {
+    font-size: 3.5rem;
+  }
+  .sec1 p {
+    font-size: 1.1rem;
+  }
+  .sec1 {
+    height: 470px;
+  }
+}
+@media (max-width: 955px) {
+  .sec1 button {
+    font-size: 17px;
+  }
+  .sec1 h1 {
+    font-size: 2.82rem;
+  }
+  .sec1 p {
+    font-size: 0.9rem;
+  }
+  .sec1 {
+    height: 380px;
+  }
+  .sec2box4 {
+    font-size: 18px;
+    padding: 5% 12%;
+  }
+  .sec2box-2 {
+    padding: 10% 10%;
+  }
+  .box1 {
+    width: 32%;
+  }
+  .sec3 {
+    height: 600px;
+  }
+  .sec3 h1 {
+    font-size: 4rem;
+  }
+  .sec3card {
+    height: 270px;
+  }
+  .sec3-numbox {
+    height: 12%;
+    width: 20%;
+  }
+  .sec3-numbox h4 {
+    font-size: 13px;
+    padding: 17% 23%;
+  }
+  .sec3card h3 {
+    font-size: 1rem;
+  }
+  .sec3card p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .sec1 {
+    height: 280px;
+  }
+  .sec1 h1 {
+    font-size: 2rem;
+  }
+  .sec1 p {
+    font-size: 0.6rem;
+    padding: 3% 24%;
+  }
+  .sec1 button {
+    font-size: 12px;
+  }
+  .sec2box4 {
+    font-size: 16px;
+    padding: 8% 12%;
+    height: 7rem;
+    width: 9.2rem;
+  }
+  .sec2box-2 {
+    padding: 17% 10%;
+  }
+  .sec3 {
+    height: 390px;
+  }
+  .sec3 h1 {
+    font-size: 2.5rem;
+  }
+  .sec3card {
+    height: 170px;
+  }
+  .sec3-numbox {
+    height: 13%;
+    width: 17%;
+  }
+  .sec3-numbox h4 {
+    font-size: 9.3px;
+    padding: 20% 18%;
+  }
+  .sec3card h3 {
+    font-size: 0.6rem;
+  }
+  .sec3card p {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 568px) {
+  .sec1 {
+    height: 220px;
+  }
+  .sec1 h1 {
+    font-size: 1.8rem;
+  }
+  .sec1 p {
+    font-size: 0.5rem;
+    padding: 3% 19%;
+  }
+  .sec1 button {
+    font-size: 9px;
+  }
+  .sec2box4 {
+    font-size: 13px;
+    padding: 8% 12%;
+    height: 5.5rem;
+    width: 8rem;
+  }
+  .sec2box-2 {
+    padding: 14% 10%;
+  }
+  .expertise {
+    font-size: 26px;
+  }
+  .sec3 {
+    height: 310px;
+  }
+  .sec3 h1 {
+    font-size: 2rem;
+  }
+  .sec3card {
+    height: 140px;
+  }
+  .sec3-numbox {
+    height: 10%;
+    width: 15%;
+  }
+  .sec3-numbox h4 {
+    font-size: 6.4px;
+    padding: 14% 22%;
+  }
+  .sec3card h3 {
+    font-size: 0.6rem;
+  }
+  .sec3card p {
+    font-size: 0.4rem;
+  }
+}
+@media (max-width: 490px) {
+  .sec1 {
+    height: 200px;
+  }
+  .sec1 h1 {
+    font-size: 1.5rem;
+  }
+  .sec1 p {
+    font-size: 0.5rem;
+    padding: 3% 14%;
+  }
+  .sec1 button {
+    font-size: 7px;
+  }
+  .sec2box4 {
+    font-size: 11px;
+    padding: 9% 12%;
+    height: 4.5rem;
+    width: 7rem;
+  }
+  .sec2box-2 {
+    padding: 17% 10%;
+  }
+  .expertise {
+    font-size: 21px;
+  }
+  .box1 {
+    width: 24%;
+  }
+  .sec3 {
+    height: 250px;
+  }
+  .sec3card {
+    height: 105px;
+  }
+  .sec3-numbox {
+    height: 14%;
+    width: 17%;
+  }
+  .sec3-numbox h4 {
+    font-size: 5.5px;
+    padding: 26% 22%;
+  }
+  .sec3card h3 {
+    font-size: 0.4rem;
+  }
+  .sec3card p {
+    font-size: 0.34rem;
+  }
+}

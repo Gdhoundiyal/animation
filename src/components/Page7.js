@@ -4,7 +4,7 @@ function Page7() {
       <div className="">
         <div className="joining"></div>
       </div>
-      <div className="">
+      <div className="joinevol">
         <h1>Join the Evolution</h1>
         <p>
           Join our dynamic team and be part of the innovation journey. Explore

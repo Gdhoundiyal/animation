@@ -1,3 +1,6 @@
+import { FaFacebookMessenger } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -19,9 +22,11 @@ function Footer() {
 
         <div className="footdiv2-1">
           <div>
+            <FaLocationArrow />
             <span>Lee Farm Corporate Park, Danbry .</span>
           </div>
           <div>
+            <FaFacebookMessenger />
             <span>support@evoltech.com</span>
           </div>
         </div>
